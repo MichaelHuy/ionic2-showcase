@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { MenuController, NavController } from 'ionic-angular';
 
-import { TabsPage } from '../tabs/tabs';
+// import { TabsPage } from '../tabs/tabs';
 
 
 export interface Slide {
@@ -40,7 +40,7 @@ export class TutorialPage {
   }
 
   startApp() {
-    this.navCtrl.push(TabsPage);
+    // this.navCtrl.push(TabsPage);
   }
 
   onSlideChangeStart(slider) {
